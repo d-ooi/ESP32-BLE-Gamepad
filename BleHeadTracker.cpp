@@ -41,9 +41,9 @@ static const uint8_t _hidReportDescriptor[] = {
   HIDINPUT(1),         0x03, //     INPUT (Constant, Variable, Absolute) ;2 bit padding*/
   // ------------------------------------------------- X/Y position, Z/rZ position
   USAGE_PAGE(1),       0x01, //     USAGE_PAGE (Generic Desktop)
-  USAGE(1),            0x37, //     USAGE (Dial Roll)
+  USAGE(1),            0x36, //     USAGE (Slider Roll)
   USAGE(1),            0x37, //     USAGE (Dial Pitch)
-  USAGE(1),            0x37, //     USAGE (Dial Yaw)
+  USAGE(1),            0x38, //     USAGE (Wheel Yaw)
   //USAGE(1),            0x35, //     USAGE (rZ)
   LOGICAL_MINIMUM(1),  0x81, //     LOGICAL_MINIMUM (-127)
   LOGICAL_MAXIMUM(1),  0x7f, //     LOGICAL_MAXIMUM (127)
